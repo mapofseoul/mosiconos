@@ -1,0 +1,1045 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b5993f064314c24b5754ddd878d7360b") format("truetype"),
+url("./flaticon.woff?b5993f064314c24b5754ddd878d7360b") format("woff"),
+url("./flaticon.woff2?b5993f064314c24b5754ddd878d7360b") format("woff2"),
+url("./flaticon.eot?b5993f064314c24b5754ddd878d7360b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b5993f064314c24b5754ddd878d7360b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "crown": "\f101",
+    "crown-1": "\f102",
+    "crown-2": "\f103",
+    "orchid": "\f104",
+    "poinsettia": "\f105",
+    "japanese-flower": "\f106",
+    "trophy": "\f107",
+    "favourite": "\f108",
+    "star": "\f109",
+    "stars": "\f10a",
+    "holy-star": "\f10b",
+    "shines": "\f10c",
+    "source": "\f10d",
+    "home-button": "\f10e",
+    "home": "\f10f",
+    "plus": "\f110",
+    "user": "\f111",
+    "group": "\f112",
+    "customer": "\f113",
+    "user-1": "\f114",
+    "teamwork": "\f115",
+    "letter": "\f116",
+    "message": "\f117",
+    "warning-sign": "\f118",
+    "magnifying-glass": "\f119",
+    "search": "\f11a",
+    "calendar": "\f11b",
+    "tumblr": "\f11c",
+    "discord": "\f11d",
+    "diamond": "\f11e",
+    "diamond-1": "\f11f",
+    "camera": "\f120",
+    "left-quote": "\f121",
+    "right-quotes-symbol": "\f122",
+    "spider": "\f123",
+    "spider-1": "\f124",
+    "balance": "\f125",
+    "justice": "\f126",
+    "book": "\f127",
+    "book-1": "\f128",
+    "books": "\f129",
+    "literature": "\f12a",
+    "plane": "\f12b",
+    "airplane": "\f12c",
+    "airplane-1": "\f12d",
+    "snowflake": "\f12e",
+    "beach-umbrella": "\f12f",
+    "winter": "\f130",
+    "winter-snow-flake": "\f131",
+    "snowing": "\f132",
+    "wreath": "\f133",
+    "rain": "\f134",
+    "autumn": "\f135",
+    "raining-dark-cloud": "\f136",
+    "snowflake-button": "\f137",
+    "snowflake-1": "\f138",
+    "tornado": "\f139",
+    "autumn-1": "\f13a",
+    "autumn-2": "\f13b",
+    "chick": "\f13c",
+    "spring": "\f13d",
+    "hailstorm": "\f13e",
+    "cloudy": "\f13f",
+    "sun": "\f140",
+    "sun-1": "\f141",
+    "sun-2": "\f142",
+    "ice-cream": "\f143",
+    "sunset": "\f144",
+    "sun-3": "\f145",
+    "butterfly": "\f146",
+    "bee": "\f147",
+    "rainbow": "\f148",
+    "butterfly-1": "\f149",
+    "butterfly-2": "\f14a",
+    "flower": "\f14b",
+    "butterfly-3": "\f14c",
+    "environment": "\f14d",
+    "windy": "\f14e",
+    "pumpkin": "\f14f",
+    "instagram": "\f150",
+    "notification": "\f151",
+    "bell": "\f152",
+    "hashtag": "\f153",
+    "slack": "\f154",
+    "notification-1": "\f155",
+    "heart": "\f156",
+    "hearts": "\f157",
+    "fans": "\f158",
+    "heart-1": "\f159",
+    "love": "\f15a",
+    "love-potion": "\f15b",
+    "double-check": "\f15c",
+    "check-mark": "\f15d",
+    "long-check-mark": "\f15e",
+    "check-mark-1": "\f15f",
+    "correct-symbol": "\f160",
+    "success": "\f161",
+    "cancel-mark": "\f162",
+    "more": "\f163",
+    "ellipsis": "\f164",
+    "globe": "\f165",
+    "world": "\f166",
+    "url": "\f167",
+    "link": "\f168",
+    "broken-link": "\f169",
+    "celebration": "\f16a",
+    "confetti": "\f16b",
+    "confetti-1": "\f16c",
+    "delete": "\f16d",
+    "delete-1": "\f16e",
+    "pencil": "\f16f",
+    "pencil-1": "\f170",
+    "user-login-button": "\f171",
+    "login": "\f172",
+    "login-1": "\f173",
+    "login-2": "\f174",
+    "login-3": "\f175",
+    "enter": "\f176",
+    "south-korea": "\f177",
+    "fan": "\f178",
+    "royal-palace": "\f179",
+    "south-korea-won-currency-symbol": "\f17a",
+    "dress": "\f17b",
+    "south-korea-1": "\f17c",
+    "won": "\f17d",
+    "mask": "\f17e",
+    "korea": "\f17f",
+    "noodles": "\f180",
+    "south-korea-2": "\f181",
+    "mask-1": "\f182",
+    "padlock": "\f183",
+    "unlock": "\f184",
+    "padlock-1": "\f185",
+    "padlock-2": "\f186",
+    "lock": "\f187",
+    "code-interface-symbol-of-signs": "\f188",
+    "clean-code": "\f189",
+    "settings": "\f18a",
+    "settings-1": "\f18b",
+    "gear": "\f18c",
+    "gear-1": "\f18d",
+    "settings-2": "\f18e",
+    "settings-3": "\f18f",
+    "alarm-clock": "\f190",
+    "no-stopping": "\f191",
+    "stop-watch": "\f192",
+    "hand": "\f193",
+    "stop": "\f194",
+    "handcuffs": "\f195",
+    "badge": "\f196",
+    "police": "\f197",
+    "sheriff-badge": "\f198",
+    "clean": "\f199",
+    "house": "\f19a",
+    "birthday-and-party": "\f19b",
+    "clean-house": "\f19c",
+    "housekeeping": "\f19d",
+    "shuttle": "\f19e",
+    "telescope": "\f19f",
+    "astronomy": "\f1a0",
+    "meteor": "\f1a1",
+    "startup": "\f1a2",
+    "stars-group": "\f1a3",
+    "moon": "\f1a4",
+    "night": "\f1a5",
+    "snowy": "\f1a6",
+    "cake": "\f1a7",
+    "shop": "\f1a8",
+    "fish": "\f1a9",
+    "cake-1": "\f1aa",
+    "tarantula": "\f1ab",
+    "lapiz": "\f1ac",
+    "anadir-amigo": "\f1ad",
+    "instagram-1": "\f1ae",
+    "instagram-2": "\f1af",
+    "instagram-directo": "\f1b0",
+    "cake-2": "\f1b1",
+    "pastel-de-nata": "\f1b2",
+    "rebanada-de-pastel": "\f1b3",
+    "flor": "\f1b4",
+    "lavanda": "\f1b5",
+    "flor-de-loto": "\f1b6",
+    "sakura": "\f1b7",
+    "loto": "\f1b8",
+    "corona-de-flores": "\f1b9",
+    "flor-de-loto-1": "\f1ba",
+    "manzanilla": "\f1bb",
+    "hibisco": "\f1bc",
+    "lirio": "\f1bd",
+    "arbol": "\f1be",
+    "flor-de-loto-2": "\f1bf",
+    "flor-1": "\f1c0",
+    "maceta": "\f1c1",
+    "edificio": "\f1c2",
+    "edificio-1": "\f1c3",
+    "edificio-2": "\f1c4",
+    "edificio-de-oficinas": "\f1c5",
+    "edificio-3": "\f1c6",
+    "corea-del-sur": "\f1c7",
+    "edificio-4": "\f1c8",
+    "sombrero": "\f1c9",
+    "ventilador": "\f1ca",
+    "taejongdae-park": "\f1cb",
+    "corea-del-sur-1": "\f1cc",
+    "kpop": "\f1cd",
+    "corea": "\f1ce",
+    "dinero": "\f1cf",
+    "dinero-1": "\f1d0",
+    "conejo": "\f1d1",
+    "zorro": "\f1d2",
+    "animal": "\f1d3",
+    "anaconda": "\f1d4",
+    "animal-1": "\f1d5",
+    "tortuga-marina": "\f1d6",
+    "animal-2": "\f1d7",
+    "coala": "\f1d8",
+    "sonriendo": "\f1d9",
+    "pulpo": "\f1da",
+    "raton": "\f1db",
+    "mono": "\f1dc",
+    "rana": "\f1dd",
+    "cabeza-de-venado": "\f1de",
+    "mariposa": "\f1df",
+    "libelula": "\f1e0",
+    "mariquita": "\f1e1",
+    "tigre": "\f1e2",
+    "bufalo": "\f1e3",
+    "caballo": "\f1e4",
+    "gallo": "\f1e5",
+    "raton-1": "\f1e6",
+    "gallina": "\f1e7",
+    "perro": "\f1e8",
+    "vaca": "\f1e9",
+    "animal-3": "\f1ea",
+    "cerdo": "\f1eb",
+    "lobo": "\f1ec",
+    "lobo-1": "\f1ed",
+    "lobo-2": "\f1ee",
+    "pista-de-animales": "\f1ef",
+    "lobo-3": "\f1f0",
+    "tigre-1": "\f1f1",
+    "tigre-2": "\f1f2",
+    "diente-de-leon": "\f1f3",
+    "leon": "\f1f4",
+    "leon-1": "\f1f5",
+    "diente-de-leon-1": "\f1f6",
+    "gato": "\f1f7",
+    "conejo-2": "\f1f8",
+    "gato-1": "\f1f9",
+    "comida-de-gato": "\f1fa",
+    "gato-2": "\f1fb",
+    "lapida-sepulcral": "\f1fc",
+    "lapida-sepulcral-1": "\f1fd",
+    "trebol": "\f1fe",
+    "cereza": "\f1ff",
+);
+
+.flaticon-crown:before {
+    content: map-get($flaticon-map, "crown");
+}
+.flaticon-crown-1:before {
+    content: map-get($flaticon-map, "crown-1");
+}
+.flaticon-crown-2:before {
+    content: map-get($flaticon-map, "crown-2");
+}
+.flaticon-orchid:before {
+    content: map-get($flaticon-map, "orchid");
+}
+.flaticon-poinsettia:before {
+    content: map-get($flaticon-map, "poinsettia");
+}
+.flaticon-japanese-flower:before {
+    content: map-get($flaticon-map, "japanese-flower");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-favourite:before {
+    content: map-get($flaticon-map, "favourite");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-stars:before {
+    content: map-get($flaticon-map, "stars");
+}
+.flaticon-holy-star:before {
+    content: map-get($flaticon-map, "holy-star");
+}
+.flaticon-shines:before {
+    content: map-get($flaticon-map, "shines");
+}
+.flaticon-source:before {
+    content: map-get($flaticon-map, "source");
+}
+.flaticon-home-button:before {
+    content: map-get($flaticon-map, "home-button");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-customer:before {
+    content: map-get($flaticon-map, "customer");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-teamwork:before {
+    content: map-get($flaticon-map, "teamwork");
+}
+.flaticon-letter:before {
+    content: map-get($flaticon-map, "letter");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-warning-sign:before {
+    content: map-get($flaticon-map, "warning-sign");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon-map, "magnifying-glass");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-tumblr:before {
+    content: map-get($flaticon-map, "tumblr");
+}
+.flaticon-discord:before {
+    content: map-get($flaticon-map, "discord");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-diamond-1:before {
+    content: map-get($flaticon-map, "diamond-1");
+}
+.flaticon-camera:before {
+    content: map-get($flaticon-map, "camera");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-right-quotes-symbol:before {
+    content: map-get($flaticon-map, "right-quotes-symbol");
+}
+.flaticon-spider:before {
+    content: map-get($flaticon-map, "spider");
+}
+.flaticon-spider-1:before {
+    content: map-get($flaticon-map, "spider-1");
+}
+.flaticon-balance:before {
+    content: map-get($flaticon-map, "balance");
+}
+.flaticon-justice:before {
+    content: map-get($flaticon-map, "justice");
+}
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-book-1:before {
+    content: map-get($flaticon-map, "book-1");
+}
+.flaticon-books:before {
+    content: map-get($flaticon-map, "books");
+}
+.flaticon-literature:before {
+    content: map-get($flaticon-map, "literature");
+}
+.flaticon-plane:before {
+    content: map-get($flaticon-map, "plane");
+}
+.flaticon-airplane:before {
+    content: map-get($flaticon-map, "airplane");
+}
+.flaticon-airplane-1:before {
+    content: map-get($flaticon-map, "airplane-1");
+}
+.flaticon-snowflake:before {
+    content: map-get($flaticon-map, "snowflake");
+}
+.flaticon-beach-umbrella:before {
+    content: map-get($flaticon-map, "beach-umbrella");
+}
+.flaticon-winter:before {
+    content: map-get($flaticon-map, "winter");
+}
+.flaticon-winter-snow-flake:before {
+    content: map-get($flaticon-map, "winter-snow-flake");
+}
+.flaticon-snowing:before {
+    content: map-get($flaticon-map, "snowing");
+}
+.flaticon-wreath:before {
+    content: map-get($flaticon-map, "wreath");
+}
+.flaticon-rain:before {
+    content: map-get($flaticon-map, "rain");
+}
+.flaticon-autumn:before {
+    content: map-get($flaticon-map, "autumn");
+}
+.flaticon-raining-dark-cloud:before {
+    content: map-get($flaticon-map, "raining-dark-cloud");
+}
+.flaticon-snowflake-button:before {
+    content: map-get($flaticon-map, "snowflake-button");
+}
+.flaticon-snowflake-1:before {
+    content: map-get($flaticon-map, "snowflake-1");
+}
+.flaticon-tornado:before {
+    content: map-get($flaticon-map, "tornado");
+}
+.flaticon-autumn-1:before {
+    content: map-get($flaticon-map, "autumn-1");
+}
+.flaticon-autumn-2:before {
+    content: map-get($flaticon-map, "autumn-2");
+}
+.flaticon-chick:before {
+    content: map-get($flaticon-map, "chick");
+}
+.flaticon-spring:before {
+    content: map-get($flaticon-map, "spring");
+}
+.flaticon-hailstorm:before {
+    content: map-get($flaticon-map, "hailstorm");
+}
+.flaticon-cloudy:before {
+    content: map-get($flaticon-map, "cloudy");
+}
+.flaticon-sun:before {
+    content: map-get($flaticon-map, "sun");
+}
+.flaticon-sun-1:before {
+    content: map-get($flaticon-map, "sun-1");
+}
+.flaticon-sun-2:before {
+    content: map-get($flaticon-map, "sun-2");
+}
+.flaticon-ice-cream:before {
+    content: map-get($flaticon-map, "ice-cream");
+}
+.flaticon-sunset:before {
+    content: map-get($flaticon-map, "sunset");
+}
+.flaticon-sun-3:before {
+    content: map-get($flaticon-map, "sun-3");
+}
+.flaticon-butterfly:before {
+    content: map-get($flaticon-map, "butterfly");
+}
+.flaticon-bee:before {
+    content: map-get($flaticon-map, "bee");
+}
+.flaticon-rainbow:before {
+    content: map-get($flaticon-map, "rainbow");
+}
+.flaticon-butterfly-1:before {
+    content: map-get($flaticon-map, "butterfly-1");
+}
+.flaticon-butterfly-2:before {
+    content: map-get($flaticon-map, "butterfly-2");
+}
+.flaticon-flower:before {
+    content: map-get($flaticon-map, "flower");
+}
+.flaticon-butterfly-3:before {
+    content: map-get($flaticon-map, "butterfly-3");
+}
+.flaticon-environment:before {
+    content: map-get($flaticon-map, "environment");
+}
+.flaticon-windy:before {
+    content: map-get($flaticon-map, "windy");
+}
+.flaticon-pumpkin:before {
+    content: map-get($flaticon-map, "pumpkin");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-notification:before {
+    content: map-get($flaticon-map, "notification");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-hashtag:before {
+    content: map-get($flaticon-map, "hashtag");
+}
+.flaticon-slack:before {
+    content: map-get($flaticon-map, "slack");
+}
+.flaticon-notification-1:before {
+    content: map-get($flaticon-map, "notification-1");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-hearts:before {
+    content: map-get($flaticon-map, "hearts");
+}
+.flaticon-fans:before {
+    content: map-get($flaticon-map, "fans");
+}
+.flaticon-heart-1:before {
+    content: map-get($flaticon-map, "heart-1");
+}
+.flaticon-love:before {
+    content: map-get($flaticon-map, "love");
+}
+.flaticon-love-potion:before {
+    content: map-get($flaticon-map, "love-potion");
+}
+.flaticon-double-check:before {
+    content: map-get($flaticon-map, "double-check");
+}
+.flaticon-check-mark:before {
+    content: map-get($flaticon-map, "check-mark");
+}
+.flaticon-long-check-mark:before {
+    content: map-get($flaticon-map, "long-check-mark");
+}
+.flaticon-check-mark-1:before {
+    content: map-get($flaticon-map, "check-mark-1");
+}
+.flaticon-correct-symbol:before {
+    content: map-get($flaticon-map, "correct-symbol");
+}
+.flaticon-success:before {
+    content: map-get($flaticon-map, "success");
+}
+.flaticon-cancel-mark:before {
+    content: map-get($flaticon-map, "cancel-mark");
+}
+.flaticon-more:before {
+    content: map-get($flaticon-map, "more");
+}
+.flaticon-ellipsis:before {
+    content: map-get($flaticon-map, "ellipsis");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-world:before {
+    content: map-get($flaticon-map, "world");
+}
+.flaticon-url:before {
+    content: map-get($flaticon-map, "url");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
+}
+.flaticon-broken-link:before {
+    content: map-get($flaticon-map, "broken-link");
+}
+.flaticon-celebration:before {
+    content: map-get($flaticon-map, "celebration");
+}
+.flaticon-confetti:before {
+    content: map-get($flaticon-map, "confetti");
+}
+.flaticon-confetti-1:before {
+    content: map-get($flaticon-map, "confetti-1");
+}
+.flaticon-delete:before {
+    content: map-get($flaticon-map, "delete");
+}
+.flaticon-delete-1:before {
+    content: map-get($flaticon-map, "delete-1");
+}
+.flaticon-pencil:before {
+    content: map-get($flaticon-map, "pencil");
+}
+.flaticon-pencil-1:before {
+    content: map-get($flaticon-map, "pencil-1");
+}
+.flaticon-user-login-button:before {
+    content: map-get($flaticon-map, "user-login-button");
+}
+.flaticon-login:before {
+    content: map-get($flaticon-map, "login");
+}
+.flaticon-login-1:before {
+    content: map-get($flaticon-map, "login-1");
+}
+.flaticon-login-2:before {
+    content: map-get($flaticon-map, "login-2");
+}
+.flaticon-login-3:before {
+    content: map-get($flaticon-map, "login-3");
+}
+.flaticon-enter:before {
+    content: map-get($flaticon-map, "enter");
+}
+.flaticon-south-korea:before {
+    content: map-get($flaticon-map, "south-korea");
+}
+.flaticon-fan:before {
+    content: map-get($flaticon-map, "fan");
+}
+.flaticon-royal-palace:before {
+    content: map-get($flaticon-map, "royal-palace");
+}
+.flaticon-south-korea-won-currency-symbol:before {
+    content: map-get($flaticon-map, "south-korea-won-currency-symbol");
+}
+.flaticon-dress:before {
+    content: map-get($flaticon-map, "dress");
+}
+.flaticon-south-korea-1:before {
+    content: map-get($flaticon-map, "south-korea-1");
+}
+.flaticon-won:before {
+    content: map-get($flaticon-map, "won");
+}
+.flaticon-mask:before {
+    content: map-get($flaticon-map, "mask");
+}
+.flaticon-korea:before {
+    content: map-get($flaticon-map, "korea");
+}
+.flaticon-noodles:before {
+    content: map-get($flaticon-map, "noodles");
+}
+.flaticon-south-korea-2:before {
+    content: map-get($flaticon-map, "south-korea-2");
+}
+.flaticon-mask-1:before {
+    content: map-get($flaticon-map, "mask-1");
+}
+.flaticon-padlock:before {
+    content: map-get($flaticon-map, "padlock");
+}
+.flaticon-unlock:before {
+    content: map-get($flaticon-map, "unlock");
+}
+.flaticon-padlock-1:before {
+    content: map-get($flaticon-map, "padlock-1");
+}
+.flaticon-padlock-2:before {
+    content: map-get($flaticon-map, "padlock-2");
+}
+.flaticon-lock:before {
+    content: map-get($flaticon-map, "lock");
+}
+.flaticon-code-interface-symbol-of-signs:before {
+    content: map-get($flaticon-map, "code-interface-symbol-of-signs");
+}
+.flaticon-clean-code:before {
+    content: map-get($flaticon-map, "clean-code");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-settings-1:before {
+    content: map-get($flaticon-map, "settings-1");
+}
+.flaticon-gear:before {
+    content: map-get($flaticon-map, "gear");
+}
+.flaticon-gear-1:before {
+    content: map-get($flaticon-map, "gear-1");
+}
+.flaticon-settings-2:before {
+    content: map-get($flaticon-map, "settings-2");
+}
+.flaticon-settings-3:before {
+    content: map-get($flaticon-map, "settings-3");
+}
+.flaticon-alarm-clock:before {
+    content: map-get($flaticon-map, "alarm-clock");
+}
+.flaticon-no-stopping:before {
+    content: map-get($flaticon-map, "no-stopping");
+}
+.flaticon-stop-watch:before {
+    content: map-get($flaticon-map, "stop-watch");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon-map, "hand");
+}
+.flaticon-stop:before {
+    content: map-get($flaticon-map, "stop");
+}
+.flaticon-handcuffs:before {
+    content: map-get($flaticon-map, "handcuffs");
+}
+.flaticon-badge:before {
+    content: map-get($flaticon-map, "badge");
+}
+.flaticon-police:before {
+    content: map-get($flaticon-map, "police");
+}
+.flaticon-sheriff-badge:before {
+    content: map-get($flaticon-map, "sheriff-badge");
+}
+.flaticon-clean:before {
+    content: map-get($flaticon-map, "clean");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-birthday-and-party:before {
+    content: map-get($flaticon-map, "birthday-and-party");
+}
+.flaticon-clean-house:before {
+    content: map-get($flaticon-map, "clean-house");
+}
+.flaticon-housekeeping:before {
+    content: map-get($flaticon-map, "housekeeping");
+}
+.flaticon-shuttle:before {
+    content: map-get($flaticon-map, "shuttle");
+}
+.flaticon-telescope:before {
+    content: map-get($flaticon-map, "telescope");
+}
+.flaticon-astronomy:before {
+    content: map-get($flaticon-map, "astronomy");
+}
+.flaticon-meteor:before {
+    content: map-get($flaticon-map, "meteor");
+}
+.flaticon-startup:before {
+    content: map-get($flaticon-map, "startup");
+}
+.flaticon-stars-group:before {
+    content: map-get($flaticon-map, "stars-group");
+}
+.flaticon-moon:before {
+    content: map-get($flaticon-map, "moon");
+}
+.flaticon-night:before {
+    content: map-get($flaticon-map, "night");
+}
+.flaticon-snowy:before {
+    content: map-get($flaticon-map, "snowy");
+}
+.flaticon-cake:before {
+    content: map-get($flaticon-map, "cake");
+}
+.flaticon-shop:before {
+    content: map-get($flaticon-map, "shop");
+}
+.flaticon-fish:before {
+    content: map-get($flaticon-map, "fish");
+}
+.flaticon-cake-1:before {
+    content: map-get($flaticon-map, "cake-1");
+}
+.flaticon-tarantula:before {
+    content: map-get($flaticon-map, "tarantula");
+}
+.flaticon-lapiz:before {
+    content: map-get($flaticon-map, "lapiz");
+}
+.flaticon-anadir-amigo:before {
+    content: map-get($flaticon-map, "anadir-amigo");
+}
+.flaticon-instagram-1:before {
+    content: map-get($flaticon-map, "instagram-1");
+}
+.flaticon-instagram-2:before {
+    content: map-get($flaticon-map, "instagram-2");
+}
+.flaticon-instagram-directo:before {
+    content: map-get($flaticon-map, "instagram-directo");
+}
+.flaticon-cake-2:before {
+    content: map-get($flaticon-map, "cake-2");
+}
+.flaticon-pastel-de-nata:before {
+    content: map-get($flaticon-map, "pastel-de-nata");
+}
+.flaticon-rebanada-de-pastel:before {
+    content: map-get($flaticon-map, "rebanada-de-pastel");
+}
+.flaticon-flor:before {
+    content: map-get($flaticon-map, "flor");
+}
+.flaticon-lavanda:before {
+    content: map-get($flaticon-map, "lavanda");
+}
+.flaticon-flor-de-loto:before {
+    content: map-get($flaticon-map, "flor-de-loto");
+}
+.flaticon-sakura:before {
+    content: map-get($flaticon-map, "sakura");
+}
+.flaticon-loto:before {
+    content: map-get($flaticon-map, "loto");
+}
+.flaticon-corona-de-flores:before {
+    content: map-get($flaticon-map, "corona-de-flores");
+}
+.flaticon-flor-de-loto-1:before {
+    content: map-get($flaticon-map, "flor-de-loto-1");
+}
+.flaticon-manzanilla:before {
+    content: map-get($flaticon-map, "manzanilla");
+}
+.flaticon-hibisco:before {
+    content: map-get($flaticon-map, "hibisco");
+}
+.flaticon-lirio:before {
+    content: map-get($flaticon-map, "lirio");
+}
+.flaticon-arbol:before {
+    content: map-get($flaticon-map, "arbol");
+}
+.flaticon-flor-de-loto-2:before {
+    content: map-get($flaticon-map, "flor-de-loto-2");
+}
+.flaticon-flor-1:before {
+    content: map-get($flaticon-map, "flor-1");
+}
+.flaticon-maceta:before {
+    content: map-get($flaticon-map, "maceta");
+}
+.flaticon-edificio:before {
+    content: map-get($flaticon-map, "edificio");
+}
+.flaticon-edificio-1:before {
+    content: map-get($flaticon-map, "edificio-1");
+}
+.flaticon-edificio-2:before {
+    content: map-get($flaticon-map, "edificio-2");
+}
+.flaticon-edificio-de-oficinas:before {
+    content: map-get($flaticon-map, "edificio-de-oficinas");
+}
+.flaticon-edificio-3:before {
+    content: map-get($flaticon-map, "edificio-3");
+}
+.flaticon-corea-del-sur:before {
+    content: map-get($flaticon-map, "corea-del-sur");
+}
+.flaticon-edificio-4:before {
+    content: map-get($flaticon-map, "edificio-4");
+}
+.flaticon-sombrero:before {
+    content: map-get($flaticon-map, "sombrero");
+}
+.flaticon-ventilador:before {
+    content: map-get($flaticon-map, "ventilador");
+}
+.flaticon-taejongdae-park:before {
+    content: map-get($flaticon-map, "taejongdae-park");
+}
+.flaticon-corea-del-sur-1:before {
+    content: map-get($flaticon-map, "corea-del-sur-1");
+}
+.flaticon-kpop:before {
+    content: map-get($flaticon-map, "kpop");
+}
+.flaticon-corea:before {
+    content: map-get($flaticon-map, "corea");
+}
+.flaticon-dinero:before {
+    content: map-get($flaticon-map, "dinero");
+}
+.flaticon-dinero-1:before {
+    content: map-get($flaticon-map, "dinero-1");
+}
+.flaticon-conejo:before {
+    content: map-get($flaticon-map, "conejo");
+}
+.flaticon-zorro:before {
+    content: map-get($flaticon-map, "zorro");
+}
+.flaticon-animal:before {
+    content: map-get($flaticon-map, "animal");
+}
+.flaticon-anaconda:before {
+    content: map-get($flaticon-map, "anaconda");
+}
+.flaticon-animal-1:before {
+    content: map-get($flaticon-map, "animal-1");
+}
+.flaticon-tortuga-marina:before {
+    content: map-get($flaticon-map, "tortuga-marina");
+}
+.flaticon-animal-2:before {
+    content: map-get($flaticon-map, "animal-2");
+}
+.flaticon-coala:before {
+    content: map-get($flaticon-map, "coala");
+}
+.flaticon-sonriendo:before {
+    content: map-get($flaticon-map, "sonriendo");
+}
+.flaticon-pulpo:before {
+    content: map-get($flaticon-map, "pulpo");
+}
+.flaticon-raton:before {
+    content: map-get($flaticon-map, "raton");
+}
+.flaticon-mono:before {
+    content: map-get($flaticon-map, "mono");
+}
+.flaticon-rana:before {
+    content: map-get($flaticon-map, "rana");
+}
+.flaticon-cabeza-de-venado:before {
+    content: map-get($flaticon-map, "cabeza-de-venado");
+}
+.flaticon-mariposa:before {
+    content: map-get($flaticon-map, "mariposa");
+}
+.flaticon-libelula:before {
+    content: map-get($flaticon-map, "libelula");
+}
+.flaticon-mariquita:before {
+    content: map-get($flaticon-map, "mariquita");
+}
+.flaticon-tigre:before {
+    content: map-get($flaticon-map, "tigre");
+}
+.flaticon-bufalo:before {
+    content: map-get($flaticon-map, "bufalo");
+}
+.flaticon-caballo:before {
+    content: map-get($flaticon-map, "caballo");
+}
+.flaticon-gallo:before {
+    content: map-get($flaticon-map, "gallo");
+}
+.flaticon-raton-1:before {
+    content: map-get($flaticon-map, "raton-1");
+}
+.flaticon-gallina:before {
+    content: map-get($flaticon-map, "gallina");
+}
+.flaticon-perro:before {
+    content: map-get($flaticon-map, "perro");
+}
+.flaticon-vaca:before {
+    content: map-get($flaticon-map, "vaca");
+}
+.flaticon-animal-3:before {
+    content: map-get($flaticon-map, "animal-3");
+}
+.flaticon-cerdo:before {
+    content: map-get($flaticon-map, "cerdo");
+}
+.flaticon-lobo:before {
+    content: map-get($flaticon-map, "lobo");
+}
+.flaticon-lobo-1:before {
+    content: map-get($flaticon-map, "lobo-1");
+}
+.flaticon-lobo-2:before {
+    content: map-get($flaticon-map, "lobo-2");
+}
+.flaticon-pista-de-animales:before {
+    content: map-get($flaticon-map, "pista-de-animales");
+}
+.flaticon-lobo-3:before {
+    content: map-get($flaticon-map, "lobo-3");
+}
+.flaticon-tigre-1:before {
+    content: map-get($flaticon-map, "tigre-1");
+}
+.flaticon-tigre-2:before {
+    content: map-get($flaticon-map, "tigre-2");
+}
+.flaticon-diente-de-leon:before {
+    content: map-get($flaticon-map, "diente-de-leon");
+}
+.flaticon-leon:before {
+    content: map-get($flaticon-map, "leon");
+}
+.flaticon-leon-1:before {
+    content: map-get($flaticon-map, "leon-1");
+}
+.flaticon-diente-de-leon-1:before {
+    content: map-get($flaticon-map, "diente-de-leon-1");
+}
+.flaticon-gato:before {
+    content: map-get($flaticon-map, "gato");
+}
+.flaticon-conejo-2:before {
+    content: map-get($flaticon-map, "conejo-2");
+}
+.flaticon-gato-1:before {
+    content: map-get($flaticon-map, "gato-1");
+}
+.flaticon-comida-de-gato:before {
+    content: map-get($flaticon-map, "comida-de-gato");
+}
+.flaticon-gato-2:before {
+    content: map-get($flaticon-map, "gato-2");
+}
+.flaticon-lapida-sepulcral:before {
+    content: map-get($flaticon-map, "lapida-sepulcral");
+}
+.flaticon-lapida-sepulcral-1:before {
+    content: map-get($flaticon-map, "lapida-sepulcral-1");
+}
+.flaticon-trebol:before {
+    content: map-get($flaticon-map, "trebol");
+}
+.flaticon-cereza:before {
+    content: map-get($flaticon-map, "cereza");
+}
